@@ -30,6 +30,14 @@ module.exports = function(environment) {
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
+    ENV.firebase={
+      apiKey: "AIzaSyD-Se-1yK8rYIf0qebFZPfYNKwgORTNs0c",
+      authDomain: "intro2p-2109e.firebaseapp.com",
+      databaseURL: "https://intro2p-2109e.firebaseio.com",
+      projectId: "intro2p-2109e",
+      storageBucket: "intro2p-2109e.appspot.com",
+      messagingSenderId: "800296481663"
+    }
   }
 
   if (environment === 'test') {
